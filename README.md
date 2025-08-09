@@ -50,12 +50,3 @@ create policy "Public read by slug" on public.invoices for select using (true);
 pnpm i
 pnpm dev
 ```
-
-## Deploy
-- Push to GitHub, import to Vercel
-- Set env vars in Vercel project
-
-## Notes
-- Intro animation plays once per session via `localStorage`.
-- No AI used in production.
-# bill-snap
